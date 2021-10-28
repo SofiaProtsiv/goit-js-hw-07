@@ -16,4 +16,4 @@ function createMarkup(galleryData) {
   }).join('');  
 };
 
-const modal = new SimpleLightbox('.gallery a', { captions: true, captionsData: 'alt', captionDelay: 200 });
+const modal = new SimpleLightbox('.gallery a', { captions: true, captionsData: 'alt', captionDelay: 250 });
